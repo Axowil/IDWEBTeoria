@@ -11,4 +11,4 @@ suma_productos = producto_1+producto_2+producto_3
 monto_total = suma_productos+IGV*suma_productos
 
 #Mostrar
-print(f"El monto total incluyendo el IGV es {monto_total:2f} soles")
+print(f"El monto total incluyendo el IGV es {monto_total:.2f} soles")

@@ -27,11 +27,11 @@ def primos_en_rango(inicio, fin):
     
     return primos
 # Programa principal
-inicio = int(input("Ingresa el número inicial: "))
-fin = int(input("Ingresa el número final: "))
+inicio = int(input("Ingresa el numeros inicial: "))
+fin = int(input("Ingresa el numeros final: "))
 
 resultado = primos_en_rango(inicio, fin)
 
-print(f"\nNúmeros primos entre {inicio} y {fin}:")
+print(f"\nNumeros primos entre {inicio} y {fin}:")
 print(resultado)
 print(f"Total de primos encontrados: {len(resultado)}")

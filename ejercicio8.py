@@ -2,8 +2,11 @@
 Escribir una función es_primo(num) que reciba un número entero y devuelva True si es primo
 y False si no lo es. Probar la función con varios números ingresados por el usuario
 """
+#definir funcicones 
 def es_primo(num) :
     
+    if num % 2==0:
+        return False
     if num < 2 :
         return False
     if num == 2:

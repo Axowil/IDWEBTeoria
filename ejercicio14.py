@@ -12,7 +12,7 @@ def agregar_estudiantes():
     
     for i in range(cantidad):
         nombre = input(f"Nombre del estudiante {i+1}: ")
-        nota = float(input(f"Nota de {nombre} (0-20): "))
+        nota = float(input(f"Nota de {nombre} 0-20: "))
         estudiantes[nombre] = nota
     
     return estudiantes

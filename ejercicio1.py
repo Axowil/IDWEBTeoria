@@ -1,3 +1,6 @@
+"""
+Calcular la temperatura promedio del fin de semana en Arequipa
+"""
 # Introducir las cuatro temperaturas
 sabado_max = float(input("Temperatura Máxima del Sábado °C: "))
 sabado_min = float(input("Temperatura Mínima del Sábado °C: "))
